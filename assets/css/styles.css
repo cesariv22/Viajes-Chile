@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--black);
+}
+
+:root {
+    --black: #000;
+    --turquoise: #17a3b8;
+    --white-2: #FFFFFF80;
+    --light-2: #DDDDDD;
+    --white: #FFFFFF;
+}
+
+/*seccion nav*/
+.img-logo {
+    align-items: center;
+}
+
+.title-nav {
+    color: var(--white);
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/*seccion parrafos*/
+.title-paragraphs {
+    font-size: 30px;
+    color: var(--white);
+    font-weight: 300;   
+}
+
+.border-title {
+    border: 1px solid var(--turquoise);
+    background-color: var(--turquoise);
+}
+
+.header-p1 {
+    text-align: center;
+    background-color: var(--turquoise);
+}
+
+.icons {
+    color: var(--white);
+    font-size: 29px;
+    margin-top: 3px;
+}
+
+.section-paragraphs {
+    margin-top: 30px;
+}
+
+.paragraphs {
+    padding: 5px 10px;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 0;
+
+}
+
+/*seccion card*/
+.title-card {
+    font-size: 30px;
+    color: var(--white);
+    font-weight: 300;
+}
+
+.card {
+    
+}
+
+.card-body {
+    color: var(--white);
+    background-color: var(--turquoise);
+}
