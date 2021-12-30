@@ -73,11 +73,24 @@ body {
     font-weight: 300;
 }
 
-.card {
-    
-}
-
 .card-body {
     color: var(--white);
     background-color: var(--turquoise);
+}
+
+.title-contact {
+    font-size: 30px;
+    color: var(--white);
+    font-weight: 300;
+    text-align: center;
+}
+
+.section-footer {
+    background-color: var(--turquoise);
+
+}
+
+.text-footer {
+    color: var(--white);
+    font-size: 30px;
 }
