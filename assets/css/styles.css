@@ -1,3 +1,5 @@
+/*config-general*/
+
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +23,8 @@ body {
 /*seccion nav*/
 .img-logo {
     align-items: center;
+    width: 30px;
+    height: 30px;
 }
 
 .title-nav {
@@ -29,11 +33,15 @@ body {
     font-size: 25px;
 }
 
-/*seccion parrafos*/
+/*seccion-parrafos*/
 .title-paragraphs {
     font-size: 30px;
     color: var(--white);
     font-weight: 300;   
+}
+
+.section-paragraphs {
+    margin-top: 30px;
 }
 
 .border-title {
@@ -41,19 +49,15 @@ body {
     background-color: var(--turquoise);
 }
 
-.header-p1 {
+.header-parag {
     text-align: center;
     background-color: var(--turquoise);
 }
 
-.icons {
+.icons-parag {
     color: var(--white);
     font-size: 29px;
     margin-top: 3px;
-}
-
-.section-paragraphs {
-    margin-top: 30px;
 }
 
 .paragraphs {
@@ -63,7 +67,6 @@ body {
     font-weight: 300;
     text-align: justify;
     margin-bottom: 0;
-
 }
 
 /*seccion card*/
@@ -78,6 +81,7 @@ body {
     background-color: var(--turquoise);
 }
 
+/*contact*/
 .title-contact {
     font-size: 30px;
     color: var(--white);
@@ -85,9 +89,9 @@ body {
     text-align: center;
 }
 
+/*footer*/
 .section-footer {
     background-color: var(--turquoise);
-
 }
 
 .text-footer {
