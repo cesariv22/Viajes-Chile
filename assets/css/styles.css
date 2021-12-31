@@ -20,6 +20,16 @@ body {
     --white: #FFFFFF;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.all-edges {
+    border-bottom: 3px solid var(--turquoise);
+}
+
+
+
 /*seccion nav*/
 .img-logo {
     align-items: center;
@@ -37,7 +47,7 @@ body {
 .title-paragraphs {
     font-size: 30px;
     color: var(--white);
-    font-weight: 300;   
+    font-weight: 300;
 }
 
 .section-paragraphs {
